@@ -42,3 +42,7 @@ body{
 .second-box{
     background-color: burlywood;
 }
+
+.tariq-box {
+    background-image: linear-gradient(to bottom right, #0000ff31, #ff000033);
+}
