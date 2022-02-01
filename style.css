@@ -66,7 +66,9 @@ body{
 
 
 /* Custom Css */
-
+.mou-box{
+    background-color: rgb(173, 233, 213);
+}
 .first-box{
     background-color: blanchedalmond;
 }
