@@ -27,10 +27,42 @@ body{
     align-items: center;
     border: 2px solid black;
 }
-
 .content{
     padding: .4rem;
 }
+.width {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 50px;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #00000080;
+    text-transform: uppercase;
+    position: relative;
+}
+.title::before {
+    content: '';
+    width: 22%;
+    height: 100%;
+    background: cadetblue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.title::after {
+    content: '';
+    width: 22%;
+    height: 100%;
+    background: cadetblue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 
 
 /* Custom Css */
